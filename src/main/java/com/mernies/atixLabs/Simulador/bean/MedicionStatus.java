@@ -7,6 +7,10 @@ public class MedicionStatus implements Serializable{
 	private String status;
 	private String descripcion;
 	
+	public MedicionStatus() {
+		super();
+	}
+	
 	public MedicionStatus(String status, String descripcion) {
 		super();
 		this.status = status;
